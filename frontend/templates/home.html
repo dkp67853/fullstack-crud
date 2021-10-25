@@ -1,0 +1,12 @@
+<table border="1">
+    <tr>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Power</td>
+    </tr>
+    <tr ng-repeat="x in superhero">
+        <td><a ng-href='#!show/{{x.id}}'>{{x.id}}</a></td>
+        <td>{{x.name}}</td>
+        <td>{{x.power}}</td>
+    </tr>
+</table>
